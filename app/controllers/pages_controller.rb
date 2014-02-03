@@ -5,6 +5,7 @@ class PagesController < ApplicationController
 	def about 
 	end 
 
-	def Media
+	def media
 	end
 
+end
