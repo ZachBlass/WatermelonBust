@@ -1,4 +1,6 @@
 WatermelonBust::Application.routes.draw do
+  resources :pins
+
   root "pages#home"
   get "about" => "pages#about"
   get "media" => "pages#media"
