@@ -4,10 +4,7 @@ WatermelonBust::Application.routes.draw do
   root "pages#home"
   get "about" => "pages#about"
   get "media" => "pages#media"
-  get "inquiries" => "pages#inquiries"
-
-  resources :inquiries, :only => [:new, :create] do
-  get 'thank_you', :on => :collection
+  
 end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
