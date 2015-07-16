@@ -4,7 +4,6 @@ WatermelonBust::Application.routes.draw do
   root "pages#home"
   get "about" => "pages#about"
   get "media" => "pages#media"
-  get "Walmart" => "pages#Walmart"
   
 end
   # The priority is based upon order of creation: first created -> highest priority.
