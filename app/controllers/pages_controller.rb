@@ -8,7 +8,4 @@ class PagesController < ApplicationController
 	def media
 	end
 
-	def Walmart
-	end
-
 end
